@@ -1,5 +1,5 @@
 {% set name = "iterators" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/iterators-{{ version }}.tar.gz
-  sha256: 135970d9d4c78cb7be690c0cee79f24f45bc9e273e24b6d621774c6e2c407465
+  sha256: e9927a1ea1ef081830fd1512f3916857c36bd4b37272819a6cd29d0f44431b97
 
 build:
   noarch: python
